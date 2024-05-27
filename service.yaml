@@ -4,6 +4,7 @@ metadata:
   labels:
     app: k8s
   name: k8s
+  namespace: helloworld
 spec:
   type: LoadBalancer
   selector:
