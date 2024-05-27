@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: k8s
-        image: torpedokim/helloWorld:1
+        image: torpedokim/helloWorld:16
         ports:
           - containerPort: 8569
